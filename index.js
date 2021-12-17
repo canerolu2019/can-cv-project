@@ -8,7 +8,8 @@ let createElement = (el) => document.createElement(el); // ! Do not change / ren
 
 // Example 1
 
-let getResumInfoElementFromEducation = document.getElementById("educationData");
+let getResumInfoElementFromEducation = 
+      document.getElementById("educationData"); 
 
 // This is the first element for education period
 let divResumeData = createElement("div");
@@ -105,13 +106,13 @@ let firstParagraph3 = createElement("p");
 firstParagraph3.innerHTML = "Frontend Developer";
 
 let secondParagraph3 = createElement("p");
-secondParagraph3.innerHTML = "Designing Web Pages";
+secondParagraph3.innerHTML = "* Designing Web Pages";
 
 let thirdParagraph3 = createElement("p");
-thirdParagraph3.innerHTML = "Making apps";
+thirdParagraph3.innerHTML = "* Making apps";
 
 let fourthParagraph3 = createElement("p");
-fourthParagraph3.innerHTML = "Designing projects";
+fourthParagraph3.innerHTML = "* Designing projects";
 
 divContent3.append(firstParagraph3);
 divContent3.append(secondParagraph3);
@@ -122,3 +123,70 @@ divResumeData3.append(divYear3);
 divResumeData3.append(divContent3);
 
 getResumInfoElementFromExperience.append(divResumeData3);
+
+// Second element of experience function 
+
+let divResumeData4 = createElement("div");
+divResumeData4.classList.add("resume-data");
+
+let divYear4 = createElement("div");
+divYear4.classList.add("year");
+divYear4.innerHTML = "2020-2021";
+
+let divContent4 = createElement("div");
+divContent4.classList.add("content");
+
+let firstParagraph4 = createElement("p");
+firstParagraph4.innerHTML = "Web Developer";
+
+let secondParagraph4 = createElement("p");
+secondParagraph4.innerHTML = "* Create Websites";
+
+let thirdParagraph4 = createElement("p");
+thirdParagraph4.innerHTML = "* Adjust API";
+
+let fourthParagraph4 = createElement("p");
+fourthParagraph4.innerHTML = "* Maintaning servers";
+
+divContent4.append(firstParagraph4);
+divContent4.append(secondParagraph4);
+divContent4.append(thirdParagraph4);
+divContent4.append(fourthParagraph4);
+
+divResumeData4.append(divYear4);
+divResumeData4.append(divContent4);
+
+getResumInfoElementFromExperience.append(divResumeData4);
+
+// third element of experience function
+
+let divResumeData5 = createElement("div");
+divResumeData5.classList.add("resume-data");
+
+let divYear5 = createElement("div");
+divYear5.classList.add("year");
+divYear5.innerHTML = "2021-2022";
+
+let divContent5 = createElement("div");
+divContent5.classList.add("content");
+
+let firstParagraph5 = createElement("p");
+firstParagraph5.innerHTML = "UI-UX Tools";
+
+let secondParagraph5 = createElement("p");
+secondParagraph5.innerHTML = "* Making Photoshop";
+
+let thirdParagraph5 = createElement("p");
+thirdParagraph5.innerHTML = "* Setting up graphical design";
+
+divContent5.append(firstParagraph5);
+divContent5.append(secondParagraph5);
+divContent5.append(thirdParagraph5);
+
+divResumeData5.append(divYear5);
+divResumeData5.append(divContent5);
+
+getResumInfoElementFromExperience.append(divResumeData5);
+
+
+
